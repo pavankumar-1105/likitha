@@ -15,7 +15,15 @@ public class DemoApplication extends SpringBootServletInitializer {
 	}
 
 	@RequestMapping("/")
-	public String sayHello() {
+	public String indexPage() {
 		return "index";
+	}
+	@RequestMapping("/page1")
+	public String getPage1() {
+		return "page1";
+	}
+	@RequestMapping("/page2")
+	public String getPage2() {
+		return "page2";
 	}
 }
