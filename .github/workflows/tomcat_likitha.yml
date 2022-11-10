@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'likitha'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_604BE8F1A58740F2859193E5EAC1310A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2039BB755E44C428FAF92A3886CEC76 }}
           package: '*.war'
